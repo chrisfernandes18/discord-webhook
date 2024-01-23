@@ -1,0 +1,23 @@
+{
+  "name": "discord-webhook",
+  "version": "1.0.0",
+  "description": "A GitHub action to call a Discord Webhook",
+  "main": "lib/index.js",
+  "repository": "https://github.com/org/TeamDoce/discord-webhook.git",
+  "author": "Christian Bjerre-Fernandes",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "ncc:pack": "ncc build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@vercel/ncc": "^0.38.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^3.0.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
